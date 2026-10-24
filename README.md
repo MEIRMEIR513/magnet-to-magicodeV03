@@ -21,3 +21,8 @@ The Magicode service currently allows files up to 10 GB and deletes them two day
 The Actor reports the destination, file count, total size, and each uploaded file's name, size, and **encrypted** download URL in the Apify dataset. The full URLs are stored in Apify KVS under the key `ENCRYPTED_DOWNLOAD_URLS` with the decryption key in `DECRYPTION_KEY`.
 
 **Important:** To decrypt URLs, use the XOR decryption function with the key from KVS. The dataset only contains encrypted URLs to prevent blocking.
+
+## Repository
+
+- **Owner:** MEIRMEIR513
+- **GitHub:** https://github.com/MEIRMEIR513/magnet-to-magicodeV03
